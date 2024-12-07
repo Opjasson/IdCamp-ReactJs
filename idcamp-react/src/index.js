@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Test from './Test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Test name="azmi ghazy asyrof" cita_cita="menjadi programer terkenal dan sholeh" />
+    <Test />
+    <Test />
   </React.StrictMode>
 );
 
