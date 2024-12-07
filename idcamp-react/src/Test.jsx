@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 
 function Test(props) {
     const name = props.name;
@@ -6,6 +6,7 @@ function Test(props) {
     return (
         <div>
             <h1>Hallo Nama Saya {name} cita-cita saya {cita_cita}</h1>
+
         </div>
     );
 }
