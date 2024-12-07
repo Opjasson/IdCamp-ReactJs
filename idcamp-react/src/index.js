@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Test from './Test';
 import Ahildren from './Children';
+import News from './Component/AllComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,10 @@ root.render(
     <App />
     <Test name="azmi ghazy asyrof" cita_cita="menjadi programer terkenal dan sholeh" />
     <Ahildren>jasson</Ahildren>
+
+    {/* Penerapan Component partikel */}
+
+    <News />
   </React.StrictMode>
 );
 
